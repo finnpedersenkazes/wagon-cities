@@ -15,10 +15,7 @@ class CityList extends Component {
     const renderList = () => {
       return this.props.cities.map((city) => {
         return (
-          <City
-            key={city.name}
-            city={city}
-          />
+          <City key={city.name} city={city} />
         )
       })
     }
