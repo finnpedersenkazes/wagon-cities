@@ -9,7 +9,7 @@ class City extends Component {
   handleClick = (event) => {
     // console.log(props.city.name)
     this.props.setActiveCity(this.props.city)
-    event.preventDefault();
+    // event.preventDefault();
   }
 
   render() {

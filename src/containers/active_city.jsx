@@ -12,6 +12,7 @@ class ActiveCity extends Component {
       return (
         <div className="active-city">
           <h1>{this.props.city.name}</h1>
+          <h2>{this.props.city.address}</h2>
         </div>
       );
     } else
